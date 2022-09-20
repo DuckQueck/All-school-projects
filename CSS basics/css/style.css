@@ -1,0 +1,91 @@
+p{
+	color: red;
+	text-align: center;
+	font-size: 1.2em;
+}
+article{
+	color: blue;
+	text-align: center;
+	background: lightgray;
+	font-family: 'Reem Kufi Fun', sans-serif;
+}
+
+h1{
+	text-transform: uppercase;
+	text-align: center;
+	background: dimgray;
+	font-size: 3em;
+	font-family: 'Bungee Spice', cursive;
+}
+#vip{ /* ID selectorius */
+	color: blue;
+}
+.super{
+	font-size: : 2em;
+}
+a{
+	color: darkred;
+	font-weight: bold;
+	text-decoration: none;
+}
+a[href="https://kitm.lt/"] {
+	color: darkred;
+}
+a[href="https://www.delfi.lt/"] {
+	color: darkgreen;
+}
+a[href="https://www.15min.lt/"] {
+	color: darkblue;
+}
+.liststyle{
+	text-align: center;
+	background: lightgray;
+	list-style-type: none;
+}
+h2, h3{
+	text-align: center;
+	font-size: 2.5em;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+h2{
+	background: slategray;
+}
+a[href$=".pdf"]{
+	color: green;
+}
+a[href$=".xlsx"]{
+	color: yellow;
+}
+a[href$=".ppt"]{
+	color: black;
+}
+a:hover{ /* Pseudo klases selecktorius */
+	color:  aqua;
+}
+p::first-letter{
+	font-size: 1.5em;
+}
+.documentlist :nth-child(even) a{
+	background: pink;
+}
+.katalog ul > li{
+	color: blue;
+}
+.katalog ul>li>ul>li{
+	color: red;
+}
+.bold-text{
+	font-weight: bold;
+}
+.fa-tag{
+	color: darkred;
+}
+.rightside{
+	max-width: 49%;
+	display: inline-block;
+}
+.leftside{
+	max-width: 49%;
+	display: inline-block;
+}

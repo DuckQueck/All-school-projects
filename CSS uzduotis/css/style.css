@@ -1,0 +1,37 @@
+h1{
+	text-align: center;
+}
+footer{
+	text-align: center;
+}
+h2{
+	text-align: right;
+	font-family: 'Bungee Spice', cursive;
+	background: gray;
+}
+p{
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+}
+.article-1 p{
+	font-size: 1.2em;
+}
+.article-2 p{
+	font-size: 1em;
+}
+.article-3 p{
+	font-size: 1.5em;
+}
+.article-4 p{
+	font-size: 1.2em;
+}
+.article-5 p{
+	font-size: 1.3em;
+}
+.container{
+	background: #e66465 url('../img/bg.jpeg');
+
+}
+.main{
+	background-color: rgba(120, 200, 80, 0.6);
+}
